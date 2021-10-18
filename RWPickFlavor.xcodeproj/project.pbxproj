@@ -12,6 +12,7 @@
 		2800887A271DBF1400AC05C6 /* RWPickFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2800886F271DBF1300AC05C6 /* RWPickFlavor.framework */; };
 		2800887F271DBF1400AC05C6 /* RWPickFlavorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800887E271DBF1400AC05C6 /* RWPickFlavorTests.swift */; };
 		28008880271DBF1400AC05C6 /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = 28008872271DBF1300AC05C6 /* RWPickFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		285D785E271DD63000796B02 /* LICENSE.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 285D785D271DD63000796B02 /* LICENSE.rtf */; };
 		28EF654C271DC64A00015E83 /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EF653E271DC64A00015E83 /* RGBAColorFromString.swift */; };
 		28EF654D271DC64A00015E83 /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EF6540271DC64A00015E83 /* ScoopCell.swift */; };
 		28EF654E271DC64A00015E83 /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EF6541271DC64A00015E83 /* ScoopView.swift */; };
@@ -40,6 +41,7 @@
 		28008873271DBF1300AC05C6 /* RWPickFlavor.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RWPickFlavor.docc; sourceTree = "<group>"; };
 		28008879271DBF1400AC05C6 /* RWPickFlavorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWPickFlavorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2800887E271DBF1400AC05C6 /* RWPickFlavorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWPickFlavorTests.swift; sourceTree = "<group>"; };
+		285D785D271DD63000796B02 /* LICENSE.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = LICENSE.rtf; sourceTree = "<group>"; };
 		28EF653E271DC64A00015E83 /* RGBAColorFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColorFromString.swift; sourceTree = "<group>"; };
 		28EF6540271DC64A00015E83 /* ScoopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
 		28EF6541271DC64A00015E83 /* ScoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		28008871271DBF1300AC05C6 /* RWPickFlavor */ = {
 			isa = PBXGroup;
 			children = (
+				285D785D271DD63000796B02 /* LICENSE.rtf */,
 				28EF653D271DC64A00015E83 /* Categories */,
 				28EF6549271DC64A00015E83 /* Controllers */,
 				28EF6545271DC64A00015E83 /* Models */,
@@ -269,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285D785E271DD63000796B02 /* LICENSE.rtf in Resources */,
 				28EF654F271DC64A00015E83 /* Main.storyboard in Resources */,
 				28EF6552271DC64A00015E83 /* Images.xcassets in Resources */,
 			);
